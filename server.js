@@ -10,5 +10,5 @@ app.get('/', (req,res)=>{
 })
 
 
-app.listen(Process.env.PORT,function(){
+app.listen(process.env.PORT,function(){
 })
